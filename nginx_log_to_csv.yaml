@@ -1,0 +1,21 @@
+pattern: '^(\S+)\s+(\S+)\s+(\S+)\s+\[([^\]]+)\]\s+"([^"]*)"\s+(\d{3})\s+(\d+)\s+"([^"]*)"\s+"([^"]*)"\s+(\d+)\s+([\d.]+)\s+\[([^\]]*)\]\s+\[([^\]]*)\]\s+(\S+)\s+(\d+)\s+([\d.]+)\s+(\d{3})\s+(\S+)$'
+fieldnames:
+  - client_ip
+  - remote_ident
+  - remote_user
+  - time_local
+  - request
+  - status
+  - body_bytes_sent
+  - http_referer
+  - http_user_agent
+  - request_length
+  - request_time
+  - proxy_upstream_name
+  - proxy_alternative_upstream_name
+  - upstream_addr
+  - upstream_response_length
+  - upstream_response_time
+  - upstream_status
+  - request_id
+
